@@ -1,0 +1,184 @@
+#	David McHugh
+
+ADJP -> Adj ADJP
+ADVP -> Adv ADVP
+FRAG -> NP PUNC
+NP -> ADJP Nom
+NP -> Det Nom
+NP -> Nom Nom
+NP -> Nom PP
+NP -> PossPro Nom
+Nom -> ADJP Nom
+Nom -> Nom Nom
+Nom -> Nom PP
+PP -> Prep NP
+S -> NP VP
+S -> X11 PUNC
+S -> X3 PUNC
+SBAR -> THAT S
+SQ -> X12 X1
+TOP -> NP PUNC
+TOP -> NP VP
+TOP -> X13 PUNC
+TOP -> X14 X1
+TOP -> X8 PUNC
+VP -> AUX VP
+VP -> VB PP
+VP -> VBD NP
+VP -> VBN PP
+VP -> VBN SBAR
+VP -> VBP NP
+VP -> VBZ NP
+VP -> VBZ RP
+VP -> VP ADVP
+VP -> X5 VP
+VP -> X6 PP
+X10 -> MD NP
+X11 -> X4 S
+X12 -> X7 VP
+X13 -> X9 S
+X14 -> X10 VP
+X3 -> NP VP
+X4 -> PP COM
+X5 -> VP Conj
+X6 -> VBD NP
+X7 -> MD NP
+X8 -> NP VP
+X9 -> PP COM
+ADJP -> 'Systemic'
+ADJP -> 'dendritic'
+ADJP -> 'immune'
+ADJP -> 'infected'
+ADJP -> 'live'
+ADJP -> 'new'
+ADJP -> 'weak'
+ADJP -> 'whole'
+ADVP -> 'online'
+ADVP -> 'today'
+AUX -> 'have'
+AUX -> 'is'
+AUX -> 'was'
+Adj -> 'Systemic'
+Adj -> 'dendritic'
+Adj -> 'immune'
+Adj -> 'infected'
+Adj -> 'live'
+Adj -> 'new'
+Adj -> 'weak'
+Adj -> 'whole'
+Adv -> 'online'
+Adv -> 'today'
+Aux -> 'have'
+AuxZ -> 'is'
+AuxZ -> 'was'
+COM -> ','
+Conj -> 'and'
+Det -> 'A'
+Det -> 'The'
+Det -> 'a'
+Det -> 'the'
+IN -> 'that'
+MD -> 'Will'
+NN -> 'body'
+NN -> 'case'
+NN -> 'immunity'
+NN -> 'malaria'
+NN -> 'mouse'
+NN -> 'pathogen'
+NN -> 'research'
+NN -> 'researcher'
+NN -> 'response'
+NN -> 'sepsis'
+NN -> 'system'
+NN -> 'type'
+NN -> 'vaccine'
+NNP -> 'Dr'
+NNP -> 'Jose'
+NNP -> 'Villadangos'
+NNS -> 'Scientists'
+NNS -> 'cells'
+NNS -> 'fragments'
+NNS -> 'humans'
+NNS -> 'infections'
+NNS -> 'mice'
+NP -> 'Dr'
+NP -> 'Jose'
+NP -> 'Scientists'
+NP -> 'They'
+NP -> 'Villadangos'
+NP -> 'body'
+NP -> 'case'
+NP -> 'cells'
+NP -> 'fragments'
+NP -> 'humans'
+NP -> 'immunity'
+NP -> 'infections'
+NP -> 'malaria'
+NP -> 'mice'
+NP -> 'mouse'
+NP -> 'pathogen'
+NP -> 'research'
+NP -> 'researcher'
+NP -> 'response'
+NP -> 'sepsis'
+NP -> 'system'
+NP -> 'them'
+NP -> 'this'
+NP -> 'type'
+NP -> 'vaccine'
+Nom -> 'Dr'
+Nom -> 'Jose'
+Nom -> 'Scientists'
+Nom -> 'Villadangos'
+Nom -> 'body'
+Nom -> 'case'
+Nom -> 'cells'
+Nom -> 'fragments'
+Nom -> 'humans'
+Nom -> 'immunity'
+Nom -> 'infections'
+Nom -> 'malaria'
+Nom -> 'mice'
+Nom -> 'mouse'
+Nom -> 'pathogen'
+Nom -> 'research'
+Nom -> 'researcher'
+Nom -> 'response'
+Nom -> 'sepsis'
+Nom -> 'system'
+Nom -> 'type'
+Nom -> 'vaccine'
+PRP -> 'They'
+PRP -> 'them'
+PRP -> 'this'
+PUNC -> '.'
+PUNC -> '?'
+PossPro -> 'Their'
+PossPro -> 'their'
+Prep -> 'In'
+Prep -> 'by'
+Prep -> 'in'
+Prep -> 'of'
+Prep -> 'with'
+RP -> 'down'
+THAT -> 'that'
+VB -> 'work'
+VBD -> 'alerted'
+VBD -> 'injected'
+VBD -> 'published'
+VBD -> 'rescued'
+VBD -> 'restored'
+VBD -> 'was'
+VBN -> 'alerted'
+VBN -> 'compromised'
+VBN -> 'discovered'
+VBN -> 'made'
+VBP -> 'alert'
+VBP -> 'capture'
+VBP -> 'display'
+VBP -> 'have'
+VBP -> 'overstimulate'
+VBZ -> 'invades'
+VBZ -> 'is'
+VBZ -> 'shuts'
+X1 -> '?'
